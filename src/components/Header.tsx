@@ -170,13 +170,15 @@ const Header: React.FC = () => {
 
           {/* Login CTA */}
           <div className="mt-6 pt-6 border-t border-red-100">
-            <a
-              href="https://ssvm2003.in/management"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setMobileOpen(false)}
-              className="flex items-center justify-center gap-2 w-full px-5 py-3 bg-primary text-white rounded-xl font-heading font-700 text-sm hover:bg-primary-dark transition-all duration-300"
-            >
+           <a
+  href="https://management.ssvm2003.in"
+  target="_blank"
+  rel="noopener noreferrer"
+  onClick={() => setMobileOpen(false)}
+  className="flex items-center justify-center gap-2 w-full px-5 py-3 bg-primary text-white rounded-xl font-heading font-700 text-sm hover:bg-primary-dark transition-all duration-300"
+>
+  Login
+</a>
               <Icon name="LockClosedIcon" size={15} variant="solid" />
               Login
             </a>
