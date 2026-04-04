@@ -97,7 +97,7 @@ const Header: React.FC = () => {
           {/* CTA + Mobile Toggle */}
           <div className="flex items-center gap-3">
             <Link
-              href="https://ssvm2003.in/management"
+             href="https://management.ssvm2003.in"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white rounded-full font-heading font-700 text-sm hover:bg-primary-dark transition-all duration-300 shadow-primary-sm hover:shadow-primary-md hover:-translate-y-0.5"
