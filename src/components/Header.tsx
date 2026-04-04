@@ -97,7 +97,7 @@ const Header: React.FC = () => {
           {/* CTA + Mobile Toggle */}
           <div className="flex items-center gap-3">
             <Link
-             href="https://management.ssvm2003.in"
+              href="https://ssvm2003.in/management"
               target="_blank"
               rel="noopener noreferrer"
               className="hidden sm:inline-flex items-center gap-2 px-5 py-2.5 bg-primary text-white rounded-full font-heading font-700 text-sm hover:bg-primary-dark transition-all duration-300 shadow-primary-sm hover:shadow-primary-md hover:-translate-y-0.5"
@@ -171,15 +171,15 @@ const Header: React.FC = () => {
           {/* Login CTA */}
           <div className="mt-6 pt-6 border-t border-red-100">
             <a
-  href="https://management.ssvm2003.in"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="w-full bg-red-700 hover:bg-red-800 text-white font-semibold py-3 px-6 rounded-lg flex items-center justify-center gap-2"
->
-  <Lock className="w-4 h-4" />
-  Login
-</a>
-
+              href="https://ssvm2003.in/management"
+              target="_blank"
+              rel="noopener noreferrer"
+              onClick={() => setMobileOpen(false)}
+              className="flex items-center justify-center gap-2 w-full px-5 py-3 bg-primary text-white rounded-xl font-heading font-700 text-sm hover:bg-primary-dark transition-all duration-300"
+            >
+              <Icon name="LockClosedIcon" size={15} variant="solid" />
+              Login
+            </a>
           </div>
 
           {/* School Info */}
